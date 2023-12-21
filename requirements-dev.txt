@@ -22,6 +22,7 @@ numpy==1.26.2
     #   contourpy
     #   matplotlib
     #   pandas
+    #   scipy
     #   seaborn
 packaging==23.2
     # via matplotlib
@@ -39,6 +40,8 @@ python-dateutil==2.8.2
     #   pandas
 pytz==2023.3.post1
     # via pandas
+scipy==1.11.4
+    # via -r requirements-dev.in
 seaborn==0.13.0
     # via -r requirements-dev.in
 six==1.16.0
